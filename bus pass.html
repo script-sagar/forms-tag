@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buss pass application</title>
+</head>
+<body>
+    <center>
+    <img src="./Screenshot 2025-06-24 214849.png">
+    </center>
+    <fieldset>
+        <legend>Applicant Details</legend>
+        <form action="./index.html" method="get" autocomplete="off">
+            <table width="100%">
+                <tr>
+                    <td>
+                         <label for="name">Name:</label>
+                         <input type="text" id="name" name="Name" autofocus required>
+                    </td>
+                    <td>
+                         <label for="fathers/guardian name">Fathers/Guardian name:</label>
+                         <input type="text" id="fathers/guardian name" name="fathers/guardian name"  required>
+                    </td>
+                </tr>
+                
+                    <tr>
+                        <td>
+                            <label for="Date of Birth">Date of Birth:</label>
+                            <input type="date" id="Date of Birth" name="Date of Birth" required>
+                        </td>
+                        <td>
+                            <lable for="Gender">Gender:</lable>
+                            <input type="radio" id="female" name="Gender" value="female" required>
+                            <label for="female">Female</label>
+                            <input type="radio" id="male" name="Gender" value="male" required>
+                            <label for="male">Male</lable>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Age">Age:</label>
+                            <input type="number" id="Age" name="Age" required>
+                        </td>
+                        <td>
+                            <label for="Aadhaar No">Aadhaar No:</label>
+                            <input type="text" id="Aadhaar No" name="Aadhaar No" maxlength="12" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <label for="Whatsapp No">Whatsapp No:</label>
+                           <input type="text" id="Whatsapp No" name="Whatsapp No"maxlength="10" required>
+                        </td>
+                        <td>
+                           <label for="E-mail id">Email-id:</label>
+                           <input type="text" id="E-mail id" name="E-mail id" required> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Photo">Photo:</label>
+                            <input type="file" id="file" name="Photo" required>
+                        </td>
+                    </tr>
+            </table>
+           </fieldset>
+           <br>
+           <fieldset>
+          <legend>Residential Address Details</legend>
+           <table width="100%">
+            <tr>
+                <td>
+                    <lable for="Address">Applicant's Address:</lable>
+                    <textarea id="Address" name="address"></textarea>
+                </td>
+                <td>
+                   <lable for="district">District:</lable>
+                   <select name="district" id="district">
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Khammam">Khammam</option>
+                    <option value="Suryapet">Suryapet</option>
+                   </select> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <lable for="mandal">Mandal:</lable> 
+                   <select name="mandal" id="mandal">
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Ananthagiri">Ananthagiri</option>
+                    <option value="Suryapet">Suryapet</option>
+                   </select> 
+                </td>
+                <td>
+                   <lable for="village">Village:</lable>
+                    <select name="village" id="village">
+                    <option value="palair">Palair</option>
+                    <option value="kusumanchi">kusumanchi</option>
+                    <option value="khammam">khammam</option>
+                   </select> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="pincode">Pincode:</lable>
+                    <input type="text" id="text" name="Photo" required>
+                </td>
+            </tr>
+         </table>
+         </fieldset>
+         <fieldset>
+          <legend>Pass type Deatils</legend>
+           <table width="100%">
+         <tr>
+            <td>
+                <label for="city">City:</label>
+                <select name="city" id="city">
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Khammam">Khammam</option>
+                    <option value="Suryapet">Suryapet</option>
+                   </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="pass type">Pass Type:</label>
+                <select name="pass type" id="pass type">
+                    <option value="regular pass">Regular pass</option>
+                    <option value="premium pass">Premium pass</option>
+                    <option value="Absolute pass">Absolute pass</option>
+                   </select>
+            </td>
+         </tr>
+         </table>
+         </fieldset>
+         <fieldset>
+         <legend>Mode of payment & Pass Collection</legend>
+         <table width="100%">
+            <tr>
+                <td>
+                   <label for="payment">Payment mode:</label>
+                   <select name="payment" id="payment">
+                    <option value="online">Online Mode</option>
+                    <option value="offline">offline Mode</option>
+                   </select>
+                </td>
+            </tr>    
+            <tr>    
+                <td>
+                    <label for="delivery">Pass Delivery mode:</label>
+                    <select name="delivery" id="delivery">
+                    <option value="counter">At Counter</option>
+                    <option value="post">By Post</option>
+                   </select>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <label for="colect">Pass Collection place</label>
+                    <select name="collect" id="collect">
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Khammam">Khammam</option>
+                    <option value="Suryapet">Suryapet</option>
+                   </select>
+                </td>
+             </tr>
+            </table>
+         </fieldset>
+          <br>
+         <center>
+         <descrption>zgfhj</descrption>
+         <br>
+         <br>
+         <input type="text" required>
+         <br>
+         <br>
+         <input type="submit" value="submit">
+         </center>
+        </form>
+</body>
+</html>
